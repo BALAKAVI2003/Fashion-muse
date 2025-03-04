@@ -1,4 +1,19 @@
+# Ignore Python cache files
 __pycache__/
 *.pyc
-*.sqlite
+*.pyo
+*.pyd
+
+# Ignore Virtual Environment
+venv/
+
+# Ignore .env files (do not expose API keys)
 .env
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db
